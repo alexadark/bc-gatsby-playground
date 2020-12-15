@@ -1,0 +1,5 @@
+export GATSBY_API_STORE_HASH="u8yeb0alvk"
+export GATSBY_API_CLIENT_ID="qbrbfgh35pe3fs6l07dc6cr4f0zee5q"
+export GATSBY_API_TOKEN="9xrrtjaoww1sgtajj15chcd3x2cgt2a"
+export GATSBY_API_SECRET="83a217f3aa3ca349d9e80502003f946936a28d61d7fdf9a7e2737dd5e70d44c7"
+export GATSBY_CORS_ORIGIN="*"

@@ -9,16 +9,18 @@ module.exports = {
       resolve: "gatsby-source-bigcommerce",
       options: {
         // REQUIRED
-        // clientId: process.env.GATSBY_API_CLIENT_ID,
-        // secret: process.env.GATSBY_API_SECRET,
-        // accessToken: process.env.GATSBY_API_TOKEN,
-        // storeHash: process.env.GATSBY_API_STORE_HASH,
+        clientId: process.env.GATSBY_API_CLIENT_ID,
+        secret: process.env.GATSBY_API_SECRET,
+        accessToken: process.env.GATSBY_API_TOKEN,
+        storeHash: process.env.GATSBY_API_STORE_HASH,
 
-        clientId: "qbrbfgh35pe3fs6l07dc6cr4f0zee5q",
-        secret:
-          "83a217f3aa3ca349d9e80502003f946936a28d61d7fdf9a7e2737dd5e70d44c7",
-        accessToken: "9xrrtjaoww1sgtajj15chcd3x2cgt2a",
-        storeHash: "u8yeb0alvk",
+        //TODO: env vars
+
+        // clientId: "qbrbfgh35pe3fs6l07dc6cr4f0zee5q",
+        // secret:
+        //   "83a217f3aa3ca349d9e80502003f946936a28d61d7fdf9a7e2737dd5e70d44c7",
+        // accessToken: "9xrrtjaoww1sgtajj15chcd3x2cgt2a",
+        // storeHash: "u8yeb0alvk",
         endpoints: {
           BigCommerceProducts:
             "/catalog/products?include=images,variants,custom_fields,options,modifiers,videos",
