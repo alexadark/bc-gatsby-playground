@@ -3,9 +3,9 @@ import { Link } from "gatsby"
 import AddToCartButton from "./AddToCartButton"
 import ProductPrices from "./ProductPrices"
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product, ...props }) => {
   return (
-    <div className="bc-product-card">
+    <div className="bc-product-card" {...props}>
       <Link
         to={`/products${product.custom_url.url}`}
         className="bc-product-card-image-anchor"
